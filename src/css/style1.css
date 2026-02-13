@@ -7,40 +7,44 @@ body {
 
 .main_header {
     margin: 20px;
-    border: 5px solid rgb(91, 209, 255);
+    border: 5px solid rgba(91, 209, 255, 0.336);
     border-radius: 15px; 
 
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: rgb(27, 39, 41);
 
-    padding: 30px;
+    padding: 10px 30px 10px 30px;
 
     color: white;
 
     font-family: "Archivo Black", sans-serif;
 
-    font-size: 30px;
+    font-size: 50px;
     font-weight: normal;
     font-style: normal;
 
     text-decoration: none;
     text-align: center;
 
-    letter-spacing: 1.5px;
+    letter-spacing: 5px;
 
     background-color: rgba(75, 123, 255, 0.884);
-    background-image: url('placeholder');
+    background-image: url('https://raw.githubusercontent.com/n0cturneler/JACKALCULUS/refs/heads/main/src/material/images/starsbg2.png');
     background-size: cover;
     background-position: top;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     
    
 }
 
-.sub_header {
-      margin: 20px;
-    border: 5px solid rgb(91, 209, 255);
-    border-radius: 15px; 
+nav {
+    text-align: center;
+}
+
+footer {
+    margin: 20px;
+    border: 3px solid rgba(91, 209, 255, 0.555);
+    border-radius: 20px; 
 
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: rgb(27, 39, 41);
@@ -61,15 +65,45 @@ body {
     letter-spacing: 1.5px;
 
     background-color: rgba(75, 123, 255, 0.884);
-    background-image: url('placeholder');
+    background-image: url('https://raw.githubusercontent.com/n0cturneler/JACKALCULUS/refs/heads/main/src/material/images/starsbg2.png');
     background-size: cover;
     background-position: top;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
+}
+
+.sub_header {
+    margin: 20px;
+    border: 3px solid rgba(91, 209, 255, 0.555);
+    border-radius: 20px; 
+
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(27, 39, 41);
+
+    padding: 30px;
+
+    color: white;
+
+    font-family: "Archivo Black", sans-serif;
+
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+
+    text-decoration: none;
+    text-align: center;
+
+    letter-spacing: 1.5px;
+
+    background-color: rgba(75, 123, 255, 0.884);
+    background-image: url('https://raw.githubusercontent.com/n0cturneler/JACKALCULUS/refs/heads/main/src/material/images/starsbg2.png');
+    background-size: cover;
+    background-position: top;
+    background-repeat: repeat;
 }
 
 a {
     margin: 10px;
-    border: 3px solid rgb(91, 209, 255);
+    border: 3px solid rgba(91, 209, 255, 0.555);
     border-radius: 5px; 
 
     -webkit-text-stroke-width: 2px;
@@ -92,21 +126,21 @@ a {
     line-height: 3;      
 
     background-color: rgba(75, 123, 255, 0.884);
-    background-image: url('placeholder');
+    background-image: url('https://raw.githubusercontent.com/n0cturneler/JACKALCULUS/refs/heads/main/src/material/images/starsbg2.png');
     background-size: cover;
     background-position: top;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
 
 .general_info{
     margin: 10px;
-    border: 3px solid rgb(91, 209, 255);
+    border: 3px solid rgba(91, 209, 255, 0.555);
     border-radius: 5px; 
 
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: rgb(27, 39, 41);
 
-    padding: 2px;
+    padding: 1px;
 
     color: white;
 
@@ -120,10 +154,10 @@ a {
     text-align: center;
 
     letter-spacing: 1.5px;
-    line-height: 3;      
+    line-height: 2;      
 
-    background-color: rgba(75, 123, 255, 0.884);
-    background-image: url('placeholder');
+    background-color: rgb(0, 68, 255);
+    background-image: url('https://raw.githubusercontent.com/n0cturneler/JACKALCULUS/refs/heads/main/src/material/images/starsbg2.png');
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
